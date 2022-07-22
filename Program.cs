@@ -1,3 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Начало проекта!");
+using MyMessanger_Stepik;
+
+Message msg = new Message();
+Console.WriteLine(msg.ToString());
